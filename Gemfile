@@ -9,6 +9,7 @@ gem 'figaro'
 gem 'carrierwave-aws'
 gem 'mini_magick', '~> 4.3.1'
 gem 'stripe'
+gem 'ranked-model'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
