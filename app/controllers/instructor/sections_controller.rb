@@ -13,7 +13,6 @@ class Instructor::SectionsController < ApplicationController
 		render text: 'updated!'
 	end
 
-
 	private
 
 	def require_authorized_for_current_section
