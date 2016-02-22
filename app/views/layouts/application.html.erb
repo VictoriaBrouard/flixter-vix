@@ -88,9 +88,48 @@
 
 <div id="footer">
 	<div class="container">
-		<b>Teachers</b>
-		<br />
-		<%= link_to 'Teach a Course', new_instructor_course_path %>
+		<div class="col-xs-12 col-sm-3">
+			<b>Teachers</b>
+			<br />
+			<%= link_to 'Teach a Course', new_instructor_course_path %>
+			<br />
+			<%= link_to 'My Dashboard', dashboard_path %>
+		</div>
+		<div class="col-xs-12 col-sm-3">
+			<b>About</b>
+			<br />
+			<%= link_to 'Team', '#' %>
+			<br />
+			<%= link_to 'Careers', '#' %>
+			<br />
+			<%= link_to 'Privacy Policy', '#' %>
+		</div>
+		<div class="col-xs-12 col-sm-3">
+			<b>Contact</b>
+			<br />
+			info@flixter.com
+			<br />
+			One Flixter House
+			<br />
+			London
+		</div>
+		<div class="col-xs-12 col-sm-3 social">
+			<b>Social</b>
+			<br />
+			<br />
+			<%= link_to 'http://facebook.com' do %>
+				<%= image_tag '1456182723_Facebook.png', class: 'social-button' %>
+			<% end %>
+			<%= link_to 'http://pinterest.com' do %>
+				<%= image_tag '1456182708_Pinterest.png', class: 'social-button' %>
+			<% end %>
+			<%= link_to 'http://twitter.com' do %>
+				<%= image_tag '1456182700_Twitter.png', class: 'social-button' %>
+			<% end %>
+			<%= link_to 'http://linkedin.com' do %>
+				<%= image_tag '1456182654_LinkedIn.png', class: 'social-button' %>
+			<% end %>
+		</div>
 	</div>
 </div>
 
